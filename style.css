@@ -1,0 +1,52 @@
+header {
+    background-color: #93D6E9;
+    padding: 50px 20px;
+    align-items: center;
+    display: flex;
+}
+
+
+h1 {
+    text-align: center;
+    margin: 0px;
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    font-style: italic;
+}
+
+button {
+    text-align: right;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+    padding: 5px 10px;
+    background: #CCF1E7;
+    border: 1px solid black;
+    border-radius: 5px;
+    text-align: center;
+}
+
+body {
+    background-color: #CCF1E7;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+footer {
+    background-color: #93D6E9;
+    text-align: center;
+}
