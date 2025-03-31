@@ -1,6 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 header {
     background-color: #93D6E9;
-    padding: 50px 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     align-items: center;
     display: flex;
 }
@@ -41,12 +49,16 @@ a {
 
 body {
     background-color: #CCF1E7;
-    margin: 0;
-    padding: 0;
-    border: 0;
 }
 
 footer {
     background-color: #93D6E9;
     text-align: center;
 }
+
+.hero-img {
+    height: 100%;
+    width: 100%;
+    background: url('hero-img') no-repeat center center;
+    background-size: cover;
+} 
